@@ -17,7 +17,7 @@ class rig_sync_panel(bpy.types.Panel):
     bl_idname = 'VIEW3D_PT_rig_sync_panel'
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category = 'Tool'
+    bl_category = 'Rig Sync'
 
     def draw(self, context):
         layout = self.layout
